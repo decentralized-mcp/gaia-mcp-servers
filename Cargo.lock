@@ -786,6 +786,40 @@ dependencies = [
 ]
 
 [[package]]
+name = "gaia-travel-mcp-client"
+version = "0.1.1"
+dependencies = [
+ "anyhow",
+ "clap",
+ "rmcp",
+ "serde_json",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
+name = "gaia-travel-mcp-server"
+version = "0.1.1"
+dependencies = [
+ "anyhow",
+ "futures",
+ "hyper",
+ "hyper-util",
+ "pin-project-lite",
+ "rand 0.8.5",
+ "reqwest",
+ "rmcp",
+ "schemars",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tokio-tungstenite",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "gaia-weather-mcp-client"
 version = "0.1.1"
 dependencies = [
